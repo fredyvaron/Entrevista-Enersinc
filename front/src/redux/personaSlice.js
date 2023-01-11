@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 export const local_url = process.env.REACT_APP_URL_LOCAL
+console.log(local_url);
 export const personaSlice = createSlice({
   name: "persona",
   initialState: {
