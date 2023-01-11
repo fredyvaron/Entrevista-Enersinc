@@ -37,3 +37,5 @@ El candidato deberá crear una aplicación basada en create-react-app, react-rou
 Redux, Ant Design/MaterialUI y Axios que consuma la API desarrollada en el
 backend (Python Flask/Django):
 ```
+
+Realizado Por [Fredy Alberto Varon Guzman](https://github.com/fredyvaron) 😊
