@@ -5,6 +5,8 @@ import PageUpdate from "../Page/PageUpdate";
 import { DeletePersona } from "../redux/personaSlice";
 import OpenNotification from "./Notificacion";
 import Update from "./Update";
+import moment from "moment"
+import 'moment/locale/es'
 
 const Listado = (Data) => {
   let id = 0;
@@ -52,6 +54,13 @@ const Listado = (Data) => {
       title: "Fecha Creacion",
       dataIndex: "created_date",
       key: "created_date",
+      render: (record)=> {
+        return (
+          <div>
+            <p>{moment(record.created_date).format('LLLL')}</p>
+          </div>
+        )
+      }
     },
     {
       title: "Action",
