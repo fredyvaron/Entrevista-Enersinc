@@ -32,10 +32,13 @@ base de datos que mejor se acomode el desarrollador:
 - Hobbie
 
 2. Frontend
-```
-El candidato deberá crear una aplicación basada en create-react-app, react-router
-Redux, Ant Design/MaterialUI y Axios que consuma la API desarrollada en el
-backend (Python Flask/Django):
-```
+
+El candidato deberá crear una aplicación basada en:
+- create-react-app
+- react-router
+- Redux
+- Ant Design/MaterialUI
+- Axios que consuma la API desarrollada en el backend (Python Flask/Django):
+
 
 Realizado Por [Fredy Alberto Varon Guzman](https://github.com/fredyvaron) 😊
