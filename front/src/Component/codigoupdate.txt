@@ -1,0 +1,91 @@
+      <Form
+        form={form}
+        labelCol={{
+          span: 8,
+        }}
+        wrapperCol={{
+          span: 16,
+        }}
+/*         onFinish={handlesubmit}
+        onFinishFailed={onFinishFailed} */
+        autoComplete="off"
+      >
+        <Form.Item
+          label="Nombre"
+          name="nombre"
+          rules={[
+            {
+              required: true,
+              message: "Por Favor Ingrese El Nombre!",
+            },
+          ]}
+        >
+          <Input value={"a"| String}/>
+        </Form.Item>
+
+        <Form.Item
+          label="Apellido"
+          name="apellidos"
+          rules={[
+            {
+              required: true,
+              message: "Por Favor Ingrese el apellido!",
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+
+        <Form.Item
+          label="Documento"
+          name="documento"
+          rules={[
+            {
+              required: true,
+              message: "Por Favor Ingrese El Numero De Documento!",
+            },
+          ]}
+        >
+          <Input value={"da"}/>
+        </Form.Item>
+
+        <Form.Item
+          label="Hobbie"
+          name="hobbie"
+          rules={[
+            {
+              required: true,
+              message: "Por Favor Ingrese El Hobbie!",
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+
+        <Form.Item
+          label="TipoDocumento"
+          name="tipoDocumento"
+          rules={[
+            {
+              required: true,
+              message: "Por Favor Ingrese El Tipo De Documento!",
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+        <br></br>
+        <Form.Item
+          wrapperCol={{
+            offset: 8,
+            span: 16,
+          }}
+        >
+          <Button type="primary" htmlType="submit">
+            Crear
+          </Button>
+        </Form.Item>
+      </Form>
+      <Button type="primary" href={"/"}>
+        Salir
+      </Button>

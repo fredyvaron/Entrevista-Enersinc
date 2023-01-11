@@ -1,5 +1,13 @@
+:root{
+  background-color: #bfbfc7;
+}
 .App {
   text-align: center;
+  margin-top:  30px;
+  margin-bottom: 30px;
+}
+.App > Button {
+  margin:40px
 }
 
 .App-logo {
